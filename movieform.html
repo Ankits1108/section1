@@ -1,38 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .form-data {
+            padding: 10px;
+            background-color: rgb(8, 31, 39);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
 </head>
-<body>
- <h1><b>movie ticket application form</b></h1> 
- <img src="PVR-INOX-Logo-web.png" width="300">
- <br><br>
- <label>Movie title</label>
- <input type="text">
- <br><br>
- <label>the date you want to attend </label>
- <input type="date">
- <label>What time suits you?</label>
- <input type="time">
- <br><br>
- <label> number of Ticket for adults :</label>
- <input type="number">
- <br><br>
- <label> number of Ticket for children:</label>
- <input type="number">
- <br><br>
- <label>email address </label>
- <input type="email">
- <br><br>
- <label> reservation name</label>
- <input type="text">
- <br><br>
- <label> i'm not a robot</label>
- <input type= "checkbox"><br><br>
- <button>submit</button>
- 
 
+<body>
+
+    <div class="form-data">
+        <div style="background-color:rgb(133, 202, 166);">
+            <div style=" padding: 5px;">
+                <h1 style="display: flex; justify-content: center;"><b>movie ticket application form</b></h1>
+                <div style="display: flex; justify-content: center">
+                    <img style="background-color:chartreuse;"  src="PVR-INOX-Logo-web.png" width="300">
+ 
+                </div> <br><br>
+
+            </div>
+            <label> Select Movie</label>
+            <select>
+
+                <option>GOAT</option>
+                <option>Stree 2</option>
+                <option>Veda</option>
+                <option>Deadpool & wolverine</option>
+                <option>Rockstar</option>
+
+                <br><br>
+
+            </select>
+            <br><br>
+
+            <label>The date you want to attend </label>
+            <input type="date">
+            <label>What time suits you?</label>
+            <input type="time">
+            <br><br>
+            <label> Number of Ticket for adults :</label>
+            <input type="number">
+            <br><br>
+            <label> Number of Ticket for children:</label>
+            <input type="number">
+            <br><br>
+            <label>email address </label>
+            <input type="email">
+            <br><br>
+            <label> reservation name</label>
+            <input type="text">
+            <br><br>
+            <label> i'm not a robot</label>
+            <input type="checkbox">
+            <br><br>
+
+            <label>Payment method</label>
+            <select>
+
+                <option>gpay</option>
+                <option>paytm</option>
+                <option>phonepay</option>
+                <option>cred</option>
+
+            </select>
+            <br><br>
+            <details>
+
+                <Summary>V iew Terms & Condition</summary>
+                <P>1. Entry is allowed only for valid ticket. <br>
+                    2. Guests aged under 18 will not be allowed in rated movies <br>
+                    3. Children above the age of 3 years require tickets for or `U/A' rated <br>
+                    4. In case a ticket is lost or misplaced, a duplicate ticket cannot be <br>
+                    5. Tickets once purchased cannot be cancelled, exchanged or refunded. <br>
+                    6. Guest Agrees to be contacted by INOX Management for the purpose of seeking feedback for service
+                    improvement. <br>
+                    7. Decision(s) taken by INOX shall be final and binding, Rights of admission reserved. <br>
+                    8. Outside food and beverages are not allowed inside the cinema premises. <br>
+                    9. Patrons under the influence of alcohol or drugs will not be allowed inside the Cinema . <br>
+                    10. Ticket prices and movie schedules are subject to change without any prior notification.</P>
+
+            </details>
+            <br>
+
+            <button
+                style="background-color: blueviolet; color: white; padding: 8px; border-radius: 5px;">Submit</button>
+
+        </div>
+
+    </div>
 </body>
+
 </html>
