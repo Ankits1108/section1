@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <link rel="stylesheet" href="roboto">
+    <style>
+    
+        *{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+        .card{
+      /* border: 2px solid red;*/
+        width: 20%;
+        box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.545);
+        border-radius: 10px;
+        padding: 30px;
+        box-sizing: border-box;
+        }
+        body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh ;
+        background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20231110/pngtree-abstract-light-colored-paint-texture-background-wallpaper-image_13802780.png);
+         background-size: cover;
+    }
+    .form-title{
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .text-input{
+      display: block;
+      width: 100%;*/
+      /*margin-bottom: 20px;*/
+     padding: 5px 10px;
+      box-sizing: border-box;
+      /*border-radius: 5px;*/
+     /* border: 1px solid grey;*/
+      border-bottom: 2px solid crimson;
+      background-color: beige;
+
+
+    }
+    .Submit-btn{
+      background-color: rgb(85, 66, 124);
+      color: white;
+      padding: 5px;
+       border: none;
+      width: 100%;
+      margin-top: 20px;
+
+    }
+    .Submit-btn:hover{
+      background-color: brown;
+    }
+    </style>
+</head>
+<body>
+   <div class="card">P
+    <h2 class="form-title">Contact Us</h2>
+    <form> 
+        <label>First Name</label>
+        <input type="text" class="text-input" placeholder="Enter first name">
+        <br>
+        <label>Last Name</label>
+        <input type="text" class="text-input" placeholder="Enter last name">
+        <br>
+        <label>Email address</label>
+        <input type="email" class="text-input" placeholder="abc@gmail.com">
+        <br>
+        <label>Mobile number</label>
+        <input type="number" class="text-input" placeholder="+91##########">
+        <br>
+        <label>How can we help you?</label><br>
+        <textarea class="text-input" placeholder="Enter your message here"></textarea>
+        <br>
+        <button class="Submit-btn">Submit</button>
+    </form>
+
+   </div> 
+
+</body>
+</html>
