@@ -1,43 +1,92 @@
 <!doctype html>
 <html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
-<body>
-  
+
+<body class="">
+
     <main>
 
         <article>
 
             <!-- hero section starts -->
-            <section class="border-2 border-red-500">
+            <section class="h-screen lg:h-auto">
 
-                <div class="grid grid-cols-2 border-2 border-blue-500 w-[80%] mx-auto py-16 gap-10">
+                <div class="grid lg:grid-cols-2 border-2 border-blue-500 w-[80%] mx-auto py-16 gap-10">
 
                     <div class="border border-green-500 space-y-6 my-auto">
-                        <h1 class="text-5xl font-bold">Lorem ipsum dolor sit amet consectetur adipisicing</h1>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque repellat alias obcaecati? Minima optio repellat inventore animi illum! Vel eos ullam corporis repudiandae illum perferendis voluptate neque ipsum sequi incidunt.</p>
-                        
-                        <div class="flex gap-4">
-                            <button class="px-4 py-1 bg-gradient-to-r from-indigo-500 to-pink-500 text-white rounded">Explore</button>
-                            <button class="px-4 py-1 border border-indigo-500 rounded">Create Account</button>
+                        <h1 class="text-4xl lg:text-5xl font-bold tex-center lg:text-left">Lorem ipsum dolor sit amet
+                            consectetur adipisicing</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque repellat alias obcaecati?
+                            Minima optio repellat inventore animi illum! Vel eos ullam corporis repudiandae illum
+                            perferendis voluptate neque ipsum sequi incidunt.</p>
+
+                        <div class="flex gap-4 justify-center lg:justify-start">
+                            <button class="px-4 py-1 bg-gradient-to-r from-indigo-500 to-pink-500 text-white rounded">
+                                <i class="fa-brands fa-wpexplorer"></i>&nbsp;Explore</button>
+                            <button class="px-4 py-1 border border-indigo-500 rounded">
+                                <i class="fa-solid fa-user"></i>&nbsp;Create Account</button>
                         </div>
                     </div>
 
-                    <div class="border border-yellow-500">
-                        <img class="w-full" src="https://img.freepik.com/free-vector/students-using-e-learning-platform-video-laptop-graduation-cap-online-education-platform-e-learning-platform-online-teaching-concept_335657-795.jpg" alt="">
+                    <div class="">
+                        <img class="w-full mt-10 lg:mt-0"
+                            src="https://img.freepik.com/free-vector/students-using-e-learning-platform-video-laptop-graduation-cap-online-education-platform-e-learning-platform-online-teaching-concept_335657-795.jpg"
+                            alt="">
+
+                        <div class="space-y-4"></div>
                     </div>
 
                 </div>
 
             </section>
             <!-- hero section ends -->
+            <section>
+                <h1>Our Services</h1>
+                <div class="grid grid-cols-3">
+                    <div class=" shadow-lg rounded-lgnborder border-indigo-300 p-8 ">
+                        <img src="undraw_undraw_undraw_undraw_undraw_undraw_undraw_undraw_users_per_minute_1e4q_t22j_-1-_0ngf_-1-_27dv_30ul_legv_-1-_il1l_-2-_0jip.svg"
+                            alt="">
+                            <div class="space-y-4"></div>
+                        <h3 class="text-3xl fonnt-bold">Service title 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, iusto.</p>
+
+                        <button class="bg-indigo-500 text-white font-bold p-2 w-full rounded-lg">Learn more</button>
+                    </div>
+                    <div class=" shadow-lg rounded-lgnborder border-indigo-300 p-8 ">
+                        <img src="undraw_undraw_undraw_undraw_undraw_undraw_undraw_undraw_users_per_minute_1e4q_t22j_-1-_0ngf_-1-_27dv_30ul_legv_-1-_il1l_-2-_0jip.svg"
+                            alt="">
+                            <div class="space-y-4"></div>
+                        <h3 class="text-3xl fonnt-bold">Service title 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, iusto.</p>
+
+                        <button class="bg-indigo-500 text-white font-bold p-2 w-full rounded-lg">Learn more</button>
+                    </div>
+                    <div class=" shadow-lg rounded-lgnborder border-indigo-300 p-8 ">
+                        <img src="undraw_undraw_undraw_undraw_undraw_undraw_undraw_undraw_users_per_minute_1e4q_t22j_-1-_0ngf_-1-_27dv_30ul_legv_-1-_il1l_-2-_0jip.svg"
+                            alt="">
+                            <div class="space-y-4"></div>
+                        <h3 class="text-3xl fonnt-bold">Service title 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, iusto.</p>
+
+                        <button class="bg-indigo-500 text-white font-bold p-2 w-full rounded-lg">Learn more</button>
+                    </div>
+                </div>
+                
+            </section>
 
         </article>
 
     </main>
 
 </body>
+
 </html>
