@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan form</title>
+</head>
+<style>
+    .card {
+        
+        height: 100vh;
+        width: 100%;
+        /* box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.545); */
+        border-radius: 10px;
+        padding: 20px;
+        box-sizing: border-box;
+        text-align: center;
+
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-padrinan-255379.jpg&fm=jpg);
+         background-size: cover; 
+    }
+
+    .child {
+        margin-inline: 10px;
+        height : 70vh;
+        width: 30%;
+        text-align: center;
+        /* box-shadow: 3px 3px 5px 2px black; */
+        border-radius: 10px;
+        padding: 100px;
+        box-sizing: border-box;
+        background-color: aliceblue;
+
+    }
+
+    .parent {
+         display: flex;
+        flex-direction: row;
+         padding: 10px;
+         /* margin: auto;  */
+    }
+</style>
+
+<body>
+    <div class="card">
+        <h2>Choose your plan</h2>
+        <p style="text-justify: distribute; width: 100%; ">Be the first to know when boardme launches.
+            Early acces user will receive an extended trial and early bird
+            pricing option.</p>
+        <div class="parent">
+            <div class="child">
+                <h2>Free</h2>
+                <h1>$0</h1>
+                <ul>
+                    <li>
+                        <h4>500 request</h4>
+                    </li>
+                    <li>
+                        <h4>Unlimited project</h4>
+                    </li>
+                    <li>
+                        <h4>exteded free trial</h4>
+                    </li>
+                </ul>
+                <button>Create account</button>
+            </div>
+
+
+            <div class="child">
+                <h2>standard</h2>
+                <h1>$99</h1>
+                <ul>
+                    <li>
+                        <h4>2500 request</h4>
+                    </li>
+                    <li>
+                        <h4>unlimited projects</h4>
+                    </li>
+                    <li>
+                        <h4>extended free trial</h4>
+                    </li>
+                </ul>
+                <button>Create account</button>
+
+
+            </div>
+
+            <div class="child">
+                <h2>Enterprise</h2>
+                <h1>Let's Talk!</h1>
+                <ul>
+                   <li> <h4>500 request</h4></li>
+                    <li><h4>unlimetd project</h4></li>
+                   <li> <h4>extended free trial</h4></li>
+                </ul>
+                <button>Create account</button>
+        
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
