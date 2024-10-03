@@ -71,5 +71,20 @@ const squares = [];
        console.log(gstprices);
        
 
+        //filter 
+        const budgetprices = prices2.filter( (p)  => {return p<1000});
+        console.log(budgetprices);
         
+
+        const nums2 =[3,7,9,2,1,6,8];
+        //filter all odd numbers
+        const oddnums = nums2.filter((s) => {return s%2 !== 0 });
+        console.log(oddnums);
+
+        const friendsNames =  ['raju','aman','ayush','harshu'];
+        const names4 = friendsNames.filter((s) => {return (s.length > 4)});
+        console.log(names4);
+
+
+
 
